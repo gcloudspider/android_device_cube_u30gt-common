@@ -99,4 +99,5 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.allow.mock.location=1 \
     ro.debuggable=1
     
+$(call inherit-product, build/target/product/full_base.mk)
     
