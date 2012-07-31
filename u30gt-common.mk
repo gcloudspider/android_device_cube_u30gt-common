@@ -54,7 +54,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
 
 PRODUCT_PACKAGES += \
         audio.a2dp.default \
-        libaudioutils
+        audio.primary.default \
+        audio_policy.default \
+        libaudioutils \
+        gralloc.default
         
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

@@ -18,6 +18,7 @@
 # by BoardConfigVendor.mk
 
 BOARD_USES_GENERIC_AUDIO := true
+BOARD_USES_AUDIO_LEGACY := true
 USE_CAMERA_STUB := true
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
