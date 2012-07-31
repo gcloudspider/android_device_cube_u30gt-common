@@ -53,7 +53,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 
 # override recovery init.rc
-TARGET_RECOVERY_INITRC := device/cube/u30gt/recovery/init.rc
+TARGET_RECOVERY_INITRC := device/cube/u30gt-common/recovery/init.rc
 
 # Indicate that the board has an Internal SD Card
 BOARD_HAS_SDCARD_INTERNAL := true
